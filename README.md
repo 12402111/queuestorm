@@ -1,5 +1,3 @@
-Here is a comprehensive README.md file designed to meet the strict criteria of the Response Quality and Documentation sections of the evaluation rubric. It explains your architecture, AI setup, safety considerations, and includes clear instructions for reproduction.
-
 QueueStorm Investigator — AI/API SupportOps Copilot
 An intelligent AI-powered copilot service built for digital finance support agents. This service analyzes incoming customer support tickets, cross-references them against transaction logs to separate claims from truth, routes tickets to correct departments, and drafts highly localized, context-aware safe customer responses.
 

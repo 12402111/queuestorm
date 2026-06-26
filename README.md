@@ -53,3 +53,11 @@ To prevent financial loss, operational issues, and safety penalties, the service
 git clone https://github.com/12402111/queuestorm
 cd repofolder
 pip install -r requirements.txt
+
+### 2. Run the app
+'''bash
+uvicorn main:app
+
+### 3. Test Endpoints
+ localhost:8000/docs
+use this to test api endpoints

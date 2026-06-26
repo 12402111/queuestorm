@@ -1,5 +1,4 @@
-# QueueStorm Investigator — AI/API SupportOps Copilot
-
+# QueueStorm Investigator
 An intelligent AI-powered copilot service built for digital finance support agents. This service analyzes incoming customer support tickets, cross-references them against transaction logs to separate claims from truth, routes tickets to correct departments, and drafts highly localized, context-aware safe customer responses.
 
 ---
@@ -50,14 +49,14 @@ To prevent financial loss, operational issues, and safety penalties, the service
 
 ### 1. Clone the Project & Install Dependencies
 
-git clone https://github.com/12402111/queuestorm
-cd repofolder
-pip install -r requirements.txt
+* git clone https://github.com/12402111/queuestorm
+* cd repofolder
+* pip install -r requirements.txt
 
 ### 2. Run the app
 
-uvicorn main:app
+* uvicorn main:app
 
 ### 3. Test Endpoints
- curl -X GET http://localhost:8000/health
- curl -X POST http://localhost:8000/analyze-ticket
+* curl -X GET http://localhost:8000/health
+* curl -X POST http://localhost:8000/analyze-ticket
